@@ -102,7 +102,7 @@ def clean_code( df1 ):
 # IMPORT DATASET
 # df = pd.read_csv('../train.csv')
 #df = pd.read_csv('ftc/train.csv')
-df = pd.read_csv('/Users/jhmartire/repos/ftc/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 
 #CLEANING DATASET
