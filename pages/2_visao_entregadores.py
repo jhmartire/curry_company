@@ -100,7 +100,10 @@ def clean_code( df1 ):
 
 
 # IMPORT DATASET
-df = pd.read_csv( 'train.csv' )
+# df = pd.read_csv('../train.csv')
+#df = pd.read_csv('ftc/train.csv')
+df = pd.read_csv('/Users/jhmartire/repos/ftc/train.csv')
+
 
 #CLEANING DATASET
 df1 = clean_code( df )
@@ -113,7 +116,7 @@ df1 = clean_code( df )
 
 st.header('Marketplace - Visao Entregadores')
 
-#image_path = 'logo.png'
+image_path = 'logo.png'
 image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120 )
 
